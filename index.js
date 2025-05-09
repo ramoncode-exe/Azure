@@ -34,3 +34,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 /* Menu Reponsive */
 
+const hamburguer = document.getElementById('menuRep');
+const navLinks = document.querySelector('.nav-links');
+
+hamburguer.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+})
