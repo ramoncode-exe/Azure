@@ -462,6 +462,11 @@ body{
 
     .cards-experiences{
         margin-top: 1rem;
+        max-width: 350px;
+    }
+
+    .img-cards{
+        max-width: 350px;
     }
 
     .container-data{
